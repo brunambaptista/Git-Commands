@@ -38,6 +38,7 @@ _A list of my commonly used Git commands_
 | `git checkout [branch name]` | Switch to a branch |
 | `git checkout -` | Switch to the branch last checked out |
 | `git checkout -- [file-name.txt]` | Discard changes to a file |
+| `git checkout .` | Delete the last commits |
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
@@ -50,6 +51,7 @@ _A list of my commonly used Git commands_
 | `git push origin [branch name]` | Push a branch to your remote repository |
 | `git push -u origin [branch name]` | Push changes to remote repository (and remember the branch) |
 | `git push` | Push changes to remote repository (remembered branch) |
+| `git push --set-upstream origin [branch name]` | Creates a new branch to remote repository and push changes |
 | `git push origin --delete [branch name]` | Delete a remote branch |
 | `git pull` | Update local repository to the newest commit |
 | `git pull origin [branch name]` | Pull changes from remote repository |
