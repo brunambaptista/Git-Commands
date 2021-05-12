@@ -1,0 +1,14 @@
+`git pull origin (branch_name)`: puxa qualquer branch para o note
+`git checkout -b (branch_name)`: cria branch nova e entra nela
+`git branch (branch_name)`: cria nova branch
+`git checkout (branch_name)`: entra na branch
+`git checkout .`: deleta os ultimos commits
+`git fetch --all`: puxa branches que não estão commitadas na master
+`git status`: verifica a quantos commits de distancia está a sua branch da master
+`git commit -am "comment_commit"`: commita as modificações
+`git push origin (branch_name)`: envia as modifs para o github após o commit
+`git push --set-upstream origin (branch name)` : cria a nova branch no github (primeiro push)
+`git stash`: coloca na lixeira as modificações
+`git remote prune origin`: corrige bugs (tem que estar na master)
+`git merge master`: merge master current branch
+
