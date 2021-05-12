@@ -11,4 +11,3 @@
 `git stash`: coloca na lixeira as modificações
 `git remote prune origin`: corrige bugs (tem que estar na master)
 `git merge master`: merge master current branch
-
